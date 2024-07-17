@@ -198,3 +198,48 @@ nav h1 {
 
 /* section 3 styles */
 
+.banner3 {
+    width: 75%;
+    background-color: rgb(34, 34, 34);
+    border-radius: 18px;
+    border-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 54px;
+}
+.banner3 img {
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+}
+.banner3-content {
+    width: 443px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+.banner3-content h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.banner3-content p {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--paragraph-color);
+}
+.banner3-content button {
+    width: 224px;
+    height: 54px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: var(--second-bg-color);
+    border-style: none;
+    border-radius: 42px;
+}
+
+/* section 4 styles */
+
