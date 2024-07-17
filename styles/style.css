@@ -150,3 +150,51 @@ nav h1 {
 
 /* section 2 styles */
 
+.banner2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner2 h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin-bottom: 14px;
+}
+.banner2 p {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--paragraph-color);
+    margin-bottom: 54px;
+}
+.banner2-images {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.banner2-images figure img {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: var(--paragraph-color);
+}
+.banner2-images figure figcaption {
+    width: 231px;
+    text-align: center;
+}
+.banner2-images figure figcaption h1 {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin-top: 24px;
+    padding-right: 35px;
+}
+.banner2-images figure figcaption p {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--paragraph-color);
+    padding-right: 35px;
+}
+
+/* section 3 styles */
+
