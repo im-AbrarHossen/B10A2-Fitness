@@ -67,6 +67,7 @@ nav h1 {
 }
 .bar {
     display: none;
+    color: var(--option-color);
 }
 .banner1 {
     display: flex;
@@ -500,6 +501,7 @@ td {
 .section-content-1 p a {
     text-decoration: none;
     color: skyblue;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .section-content-1 p {
     margin-left: auto;
@@ -558,11 +560,26 @@ td {
     justify-content: space-between;
     align-items: center;
 }
+.tamplate-3-text i, .tamplate-1-text i, .tamplate-2-text i {
+    color: var(--second-bg-color);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 .tamplate-3-text h3 {
     text-align: left;
     color: var(--second-bg-color);
     font-size: 1rem;
     font-weight: 600;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.tamplate-3-bg, .tamplate-2-bg, .tamplate-1-bg {
+    position: relative;
+}
+.tamplate-1-bg p, .tamplate-2-bg p, .tamplate-3-bg p {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--option-color);
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .section-content-2 {
@@ -574,6 +591,7 @@ td {
 .section-content-2 p a {
     text-decoration: none;
     color: skyblue;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .section-content-2 p {
     margin-left: auto;
@@ -599,6 +617,7 @@ td {
 .section-content-3 p a {
     text-decoration: none;
     color: skyblue;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .section-content-3 p {
     margin-left: auto;
@@ -622,6 +641,7 @@ td {
 .section-content-4 p a {
     text-decoration: none;
     color: skyblue;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .section-content-4 p {
     margin-left: auto;
