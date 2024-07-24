@@ -823,6 +823,41 @@ footer {
         width: 180px;
         height: 54px;
     }
+    .banner6 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .section-content-1 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .tamplate {
+        flex-direction: column;
+    }
+    .section-content-2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .section-content-2 .tamplate img {
+        width: 280px;
+        height: 200px;
+    }
+    .section-content-3 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .section-content-3 .tamplate img {
+        width: 280px;
+        height: 200px;
+    }
+    .section-content-4 {
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .section-content-4 .tamplate img {
+        width: 280px;
+        height: 250px;
+    }
 }
 
 /* Responsive For Mobile Small */
@@ -865,6 +900,18 @@ footer {
     }
     .banner1-content2 img {
         width: 70%;
+    }
+    .section-content-2 .tamplate img {
+        width: 230px;
+        height: 200px;
+    }
+    .section-content-3 .tamplate img {
+        width: 230px;
+        height: 200px;
+    }
+    .section-content-4 .tamplate img {
+        width: 230px;
+        height: 200px;
     }
 }
 
@@ -997,5 +1044,11 @@ footer {
     .btn button {
         width: 180px;
         height: 54px;
+    }
+    .banner6 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .section-content-1 p, .section-content-2 p, .section-content-3 p, .section-content-4 p {
+        text-align: center;
     }
 }
