@@ -499,7 +499,7 @@ td {
     padding-top: 4rem;
 }
 .section-content-1 p a {
-    text-decoration: none;
+    text-decoration: underline;
     color: skyblue;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
@@ -589,7 +589,7 @@ td {
     padding-top: 4rem;
 }
 .section-content-2 p a {
-    text-decoration: none;
+    text-decoration: underline;
     color: skyblue;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
@@ -615,7 +615,7 @@ td {
     padding-top: 4rem;
 }
 .section-content-3 p a {
-    text-decoration: none;
+    text-decoration: underline;
     color: skyblue;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
@@ -639,7 +639,7 @@ td {
     padding-top: 4rem;
 }
 .section-content-4 p a {
-    text-decoration: none;
+    text-decoration: underline;
     color: skyblue;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
