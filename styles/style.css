@@ -185,8 +185,8 @@ nav h1 {
     margin-bottom: 54px;
 }
 .banner2-images {
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 70px;
 }
 .banner2-images figure img {
